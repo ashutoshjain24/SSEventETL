@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSEventsETL.DomainModel", "SSEventETL.DomainModel\SSEventsETL.DomainModel.csproj", "{767CA7D4-3A60-4968-BC17-C7971D970B7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSEventsETL.Enumerations", "SSEventsETL.Enumerations\SSEventsETL.Enumerations.csproj", "{ED6C2DB9-2551-473B-8E63-CE5F5D6AEA75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSEventsETL.Utility", "SSEventsETL.Utility\SSEventsETL.Utility.csproj", "{98572D15-41F8-4E64-A028-35E7579161E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSEventsETL.Helpers", "SSEventsETL.Helpers\SSEventsETL.Helpers.csproj", "{B7975C31-F69C-4C15-993B-F0CC8680C418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSEventsETL.EventsLoader", "SSEventsETL.EventsLoader\SSEventsETL.EventsLoader.csproj", "{9C4D02AB-E110-4E95-A853-4439CF301197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSEventsETL.EventsProcessor", "SSEventsETL.EventsProcessor\SSEventsETL.EventsProcessor.csproj", "{187E4B61-EECA-4BF5-8D19-E81F9FA027E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{767CA7D4-3A60-4968-BC17-C7971D970B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767CA7D4-3A60-4968-BC17-C7971D970B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767CA7D4-3A60-4968-BC17-C7971D970B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767CA7D4-3A60-4968-BC17-C7971D970B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED6C2DB9-2551-473B-8E63-CE5F5D6AEA75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED6C2DB9-2551-473B-8E63-CE5F5D6AEA75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED6C2DB9-2551-473B-8E63-CE5F5D6AEA75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED6C2DB9-2551-473B-8E63-CE5F5D6AEA75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98572D15-41F8-4E64-A028-35E7579161E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98572D15-41F8-4E64-A028-35E7579161E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98572D15-41F8-4E64-A028-35E7579161E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98572D15-41F8-4E64-A028-35E7579161E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7975C31-F69C-4C15-993B-F0CC8680C418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7975C31-F69C-4C15-993B-F0CC8680C418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7975C31-F69C-4C15-993B-F0CC8680C418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7975C31-F69C-4C15-993B-F0CC8680C418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C4D02AB-E110-4E95-A853-4439CF301197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4D02AB-E110-4E95-A853-4439CF301197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4D02AB-E110-4E95-A853-4439CF301197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4D02AB-E110-4E95-A853-4439CF301197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{187E4B61-EECA-4BF5-8D19-E81F9FA027E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{187E4B61-EECA-4BF5-8D19-E81F9FA027E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{187E4B61-EECA-4BF5-8D19-E81F9FA027E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{187E4B61-EECA-4BF5-8D19-E81F9FA027E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EDF949C-AA53-4188-A6B6-594E49E463AC}
+	EndGlobalSection
+EndGlobal
